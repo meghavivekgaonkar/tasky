@@ -32,7 +32,7 @@ function saveData(){
 
 //on browser re-launch
 function showTasks(){
-    listContainer.innerHTML = localStorage.getItem(data);
+    listContainer.innerHTML = localStorage.getItem("data");
 
 }
 showTasks();
